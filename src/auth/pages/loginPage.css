@@ -1,0 +1,77 @@
+
+    
+
+.login{
+    font-family: var(--font-family);
+    display: flex;
+    background-color: var( --color-blog);
+    margin: 5rem auto;
+    border-radius: 20px;
+    color: var(--color-text-inside);
+    box-shadow: 5px 15px 50px rgb(57, 55, 55);
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    gap: 2rem;
+    margin: 2rem ;
+}
+.login__form h1{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.login__form input{
+    font-size: 18px;
+    font-weight: 200;
+    
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    
+}
+.login__form-login,.login__form-authGoogle {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    background-color: var(--color-button);
+    color: var(--color-text-inside);
+    
+}
+.login__form h2{
+    font-size: 12px;
+    text-align: end;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login__form,span{
+    
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+    
+    
+}
+
+   
+    
+    
+    
+    
+    
+    
+    
+    

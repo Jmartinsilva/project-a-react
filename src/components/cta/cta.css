@@ -1,0 +1,135 @@
+.gpt3__cta{
+    
+    /*background: var(--gradient-bg-right );*/
+    width: 100%;
+    height: 70rem;
+    color:var(--color-text-out);
+    padding: 0rem 4rem;
+    font-family: var(--font-family);
+    
+}
+
+.gpt3__cta-arriba{
+    display: flex;
+    margin: 0rem 2rem;
+    gap: 12rem;
+    
+    
+}
+.gpt3__cta-arriba__izq{
+    width: 100%;
+    height: auto;
+    Aspect-ratio: 587/670;
+    
+
+}
+   
+    
+    
+   
+    
+    
+    
+
+.gpt3__cta-arriba__der{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.gpt3__cta-arriba__der h1{
+    font-size:34px;
+    font-weight: 400;
+    background: var(--gradient-text-A);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+} 
+.gpt3__cta-arriba__der p {
+    font-size:16px;
+    font-weight: 100;
+}   
+
+.gpt3__cta-abajo{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 2rem;
+    padding-top: 16rem;
+    position: relative;
+    color: var(--color-text-inside);
+    font-weight: 100;
+}
+ 
+.gpt3__cta-abajo p {
+    width: 100%;
+    height: 3.5rem;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-blog);
+    border: none;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    
+}
+.gpt3__cta-abajo button {
+    position: absolute;
+    border-radius: 10px;
+    right: 6px;
+    bottom:3.5px;
+    border: none;
+    font-weight: 100;
+    font-size: 18px;
+    height: 3rem;
+    width: 18rem;
+    cursor: pointer;
+    font-family: var(--font-family);
+    background: var(--color-button);
+    color: #F7F9F8;
+}
+    
+   
+@media only screen and (max-width: 1220px){
+    .gpt3__cta{
+        height: auto;
+    }
+    .gpt3__cta-arriba{
+        flex-wrap: wrap;
+        gap: 0;
+        padding-bottom: 3rem;
+        
+    }
+    .gpt3__cta-arriba__izq{
+        max-width: 70%;
+        height: auto;
+        
+    }
+    .gpt3__cta-arriba__der{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding-top: 3rem;
+    }
+    .gpt3__cta-abajo{
+        display: none;
+    }
+}
+
+  
+@media only screen and (max-width: 575px){
+    .gpt3__cta-arriba__izq{
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+    
+    
+    
+
+    
+
+    
+
+    
+    
+    

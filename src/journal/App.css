@@ -1,0 +1,97 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+    
+}
+
+body{
+    /*CON FONDO DE IMAGEN SVG*/
+  background-image: url(../assets/background-img.svg) ;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+    /*CON FONDO GRADIENT*/
+  /*background: linear-gradient(to left, #0a2a43, #204056, #3c5c6c, #2d608c, #3c567b);*/
+  
+
+    /* GRADIENT ANIMADO*/
+  /*height: 100dvh;
+  background: linear-gradient( to right,#4B6B6D 1%,#1D4463 60%,#34567b 250%);
+  background-size: 200% 200%;
+  animation: gradientAnimation 4s ease infinite;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(18, 22, 144, 0.1);*/
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 100% 50%; }
+  50% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+@keyframes animate {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }}
+
+
+
+h1,h2,h3,h4{
+  text-wrap: balance;
+  
+}
+
+h1{
+  animation: animate .5s cubic-bezier(0.19, 1, 0.22, 1) 1s forwards;
+}
+
+p{
+  text-wrap: pretty;
+}
+
+a{
+    color: unset;
+    text-decoration:none ;
+    font-size:1rem;
+    
+}
+a:hover {
+  font-weight: 900;
+}
+
+
+
+
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  

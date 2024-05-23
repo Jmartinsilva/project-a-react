@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Michroma', sans-serif;
+
+  --gradient-text-A: linear-gradient(45deg, #D0984C 9%, #2E2D47 90%);
+  --gradient-text-B: linear-gradient(55deg, #D0984C 1%, #2E2D47 120%);
+  --gradient-bg-left: linear-gradient(50deg, #4B6B6D 9%, #002853 93%);
+  --gradient-bg-right: linear-gradient(45deg, #1D4463 13%, rgba(75, 107, 109, 0.98) 94%);
+  --gradient-center: radial-gradient(circle, rgba(29, 68, 99, 0.91) 0%, #4B6B6D 100%);
+  --gradient-navbar:linear-gradient(to right, #0a2a43, #204056, #3c5c6c, #20496d, #141c27);
+
+  --color-bg: #0D3358;
+  --color-button : #B43D53;
+  --color-blog: #2E2D47;
+  --color-text-out: #151515;
+  --color-text-inside: #F7F9F8;
+}
+

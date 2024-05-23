@@ -1,0 +1,217 @@
+.blog{
+    padding: 8rem 4rem;
+    font-family: var(--font-family);
+    
+}
+.blog h1{
+    display: flex;
+    justify-content: start;
+    padding-bottom:10rem;
+    margin: 0 2rem;
+    font-size: 62px;
+    background: var(--gradient-text-B);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    font-weight: 400;
+    
+}
+
+.blog__container{
+    display: grid;
+   
+    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+    grid-gap:0.5rem  1.5rem;
+    margin: 0rem 2rem;
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+    font-family: var(--font-family);
+    color: var(--color-text-inside);
+    
+    
+    
+}
+/*LARGE*/
+.blog__container-large{
+    grid-row: 1/3 ;
+    grid-column: 1/2;
+    background-color: var(--color-blog);
+    margin: 1rem 0;
+    border-radius: 50px 5px 5px 5px;
+    text-align: center;
+   
+}
+.blog__container-large img{
+    width:100% ;
+    height: 52%;
+    background-size: cover;
+    Aspect-ratio: 16/9;
+}   
+.blog__container-large h2{
+    padding-top: 10rem;
+    font-size: 20px;
+    font-weight: 200;
+}  
+.blog__container-large p,h3 {
+    padding-top: 4rem;
+    font-size: 10px;
+}
+
+/*PRIMERO*/
+
+.blog__container-primero{
+    grid-row: 1/2 ;
+    grid-column:2/3;
+    background-color: var(--color-blog);
+    margin: 1rem 0;
+    border-radius: 50px 5px 5px 5px;
+    text-align: center;
+
+}
+.blog__container-primero img{
+    width:100% ;
+    height: 40%;
+    background-size: cover;
+    Aspect-ratio: 16/9;
+}
+.blog__container-primero h2 {
+    padding-top:5rem;
+    font-size: 14px;
+    font-weight: 200;
+}
+.blog__container-primero p, h3 {
+    padding-top: 3rem;
+    font-size: 10px;
+}
+/*SEGUNDO*/
+.blog__container-segundo{
+    grid-row: 1/2 ;
+    grid-column:3/4;
+    background-color: var(--color-blog);
+    margin: 1rem 0;
+    border-radius: 50px 5px 5px 5px;
+    text-align: center;
+
+}
+.blog__container-segundo img{
+    width:100% ;
+    height: 40%;
+    background-size: cover;
+    Aspect-ratio: 16/9;
+}
+.blog__container-segundo h2 {
+    padding-top:5rem;
+    font-size: 14px;
+    font-weight: 200;
+}
+.blog__container-segundo p, h3 {
+    padding-top: 3rem;
+    font-size: 10px;
+}
+/*TERCERO*/
+
+
+.blog__container-tercero{
+    grid-row: 2/3 ;
+    grid-column:2/3;
+    background-color: var(--color-blog);
+    margin: 1rem 0;
+    border-radius: 50px 5px 5px 5px;
+    text-align: center;
+
+}
+.blog__container-tercero img{
+    width:100% ;
+    height: 40%;
+    background-size: cover;
+    Aspect-ratio: 16/9;
+}
+.blog__container-tercero h2 {
+    padding-top:5rem;
+    font-size: 14px;
+    font-weight: 200;
+}
+.blog__container-tercero p, h3 {
+    padding-top: 3rem;
+    font-size: 10px;
+}
+
+/*CUARTO*/
+.blog__container-cuarto{
+    grid-row: 2/3 ;
+    grid-column:3/4;
+    background-color: var(--color-blog);
+    margin: 1rem 0;
+    border-radius: 50px 5px 5px 5px;
+    text-align: center;
+
+}
+.blog__container-cuarto img{
+    width:100% ;
+    height: 40%;
+    background-size: cover;
+    Aspect-ratio: 16/9;
+}
+.blog__container-cuarto h2 {
+    padding-top:5rem;
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+.blog__container-cuarto p, h3 {
+    padding-top: 3rem;
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 1300px){
+    .blog__container{
+        width: 90%;
+        height: auto;
+        grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+        
+   
+    }
+    .blog__container-segundo{
+        grid-row: 3/4 ;
+        grid-column:1/2;
+    }
+    .blog__container-cuarto{
+        grid-row: 3/4 ;
+        grid-column:2/3;
+    }
+    .blog h1{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .blog__container{
+        width: 80%;
+        height: auto;
+        grid-template: repeat(7, 1fr)/repeat(1, 1fr);
+    }
+    .blog__container-primero{
+        grid-row: 4/5 ;
+        grid-column:1/2;
+    }
+    .blog__container-tercero{
+        grid-row: 5/6 ;
+        grid-column:1/2;
+    }
+    .blog__container-cuarto{
+        grid-row: 6/7 ;
+        grid-column:1/2;
+    }
+    .blog h1{
+        font-size: 36px;
+    }
+   
+
+}
+@media only screen and (max-width: 575px){
+    .blog__container{
+        padding-bottom: rem;
+    }
+}
